@@ -1,5 +1,5 @@
 # From Novice to Ninja
-An engaging way to learn Android Studio.
+An engaging way to learn **Android Studio**.
 
 This project isn't intended to be run, you can compile it and just start by looking at [Agenda] (android-studio-novice-ninja/app/src/main/java/com/android/ninja/Agenda.java).
 
