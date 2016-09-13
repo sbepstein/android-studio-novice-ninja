@@ -1,6 +1,8 @@
-# AndroidStudioIntro
+# From Novice to Ninja
 An engaging way to learn Android Studio.
 
-Please, do not try to compile this project. It's structured to show you how to use Android Studio. 
-Take a look at the class Agenda. Initially, the shortcuts are for the Mac, I hope to add those for Windows (which I sorely miss, mostly the simplified shortcuts).
+This project isn't intended to be run, you can compile it and just start by looking at [Agenda] (android-studio-novice-ninja/app/src/main/java/com/android/ninja/Agenda.java).
+
+The comments inside every class are intended to be your guide. IntelliJ IDEA and Android Studio are gentle beasts, unlike other IDE's, they won't get in your way but you will be amazed at the insane number of features they both offer.
+
 
