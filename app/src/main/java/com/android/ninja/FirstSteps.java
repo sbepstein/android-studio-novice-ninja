@@ -1,15 +1,8 @@
 package com.android.ninja;
 
-import android.content.Context;
 
 /**
  * Basic functionality
- * <p/>
- * Google field naming convention:
- * Non-public, non-static field names start with m.
- * Static field names start with s.
- * Other fields start with a lower case letter.
- * Public static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES.
  *
  * @author Aziz Kadhi
  */
@@ -33,7 +26,7 @@ public class FirstSteps {
 
     public void howToWatchYourBack() {
         // Use Local History. WHY?
-        // Right click any file or folder and click on Local History (5th from the bottom)
+        // Right click any file or folder and click on Local History
         // then select Show History
 
         // Before making any significant changes, I suggest you label the current codebase
@@ -64,6 +57,11 @@ public class FirstSteps {
         // Classes/files/plugins/EVERYTHING!
 
     }
+
+    public void next() {
+        new KeymapAndShortcuts();
+    }
+
 
 
 

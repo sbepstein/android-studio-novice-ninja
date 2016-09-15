@@ -1,13 +1,7 @@
 package com.android.ninja;
 
 /**
- * Description
- * <p/>
- * Google field naming convention:
- * Non-public, non-static field names start with m.
- * Static field names start with s.
- * Other fields start with a lower case letter.
- * Public static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES.
+ * Language injection
  *
  * @author Aziz Kadhi
  */
@@ -15,7 +9,11 @@ public class LanguageInjection {
     // Inject language:
     // 1) Put cursor inside the empty string, press option + enter then select Inject language or reference
     // 2) To invoke the fragment editor: alt + enter then select Edit JSON Fragment
-    String jsonStr = "";
+    String jsonStr = "{\n" +
+            "  \"name\": \"aziz\",\n" +
+            "  \"job\": \"rastaman\"\n" +
+            "  \"age\"\n" +
+            "}";
 
     // Inject Regex:
     // 1) Same as above, execute step 1
@@ -25,5 +23,10 @@ public class LanguageInjection {
 
     // ^5[1-5][0-9]{5,}$
     String visaRegex = "";
+
+    public void next() {
+        new Agenda();
+    }
+
 
 }

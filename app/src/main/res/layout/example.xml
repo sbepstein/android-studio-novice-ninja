@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+        <!-- Type LLvNamespace + tab to generate a LinearLayout with android namespace -->
+        <!-- Type iVi to generate an imageView -->
+
         <!-- LinearLayout + textView (wc) and imageView -->
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"

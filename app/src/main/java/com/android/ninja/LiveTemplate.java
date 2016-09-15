@@ -1,57 +1,65 @@
 package com.android.ninja;
 
 import android.content.Context;
+import android.content.Intent;
 import android.media.Image;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.annotation.NonNull;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Description
- * <p/>
- * Google field naming convention:
- * Non-public, non-static field names start with m.
- * Static field names start with s.
- * Other fields start with a lower case letter.
- * Public static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES.
  *
  * @author Aziz Kadhi
  */
 public class LiveTemplate {
-    private static final String LOG_TAG = LiveTemplate.class.getSimpleName();
+    private static final String TAG = LiveTemplate.class.getSimpleName();
     private Context ctx = new MainActivity();
 
-    // Create constants: psf
-    // Type psfs then press Tab
 
-    // Create method
-
-    // Logging
-    public void logging() {
-
-    }
+    // Create constants: psf + enter
 
 
-    // Show xml example
+    // Constant string: psfs + enter
 
-    // Android-specific templates
-    public void androidSpecificTemplates() {
-        // gone/visible: new ImageView(new MainActivity())
 
-        int[] nums = {1, 2, 3};
+    // Create method: mp + enter
 
-        // foreach
+    public void moreTemplates() {
+        // gone/visible file templates
+        ImageView modelTimageView = new ImageView(ctx);
+        // Type gone + enter + mTi + tab + enter
+
+        
+        List<Integer> values = Arrays.asList(1, 3, 3);
+        // Type it
+
 
     }
 
-    // Start an activity: start
+    // To generate a method that starts an activity: type starter
 
+
+    public void next() {
+        new LanguageInjection();
+    }
 
 }
 
     // Use Parcelable template.
+    // Uncomment the class below
+    // 2 ways to do it, just put the cursor on Parcelable and then select
+    // 1) Implement methods (creates empty methods)
+    // 2) Add Parcelable Implementation (which creates all the machinery needed to implement a parcelable)
+
 //    class Model implements Parcelable {
 //        String look = "right";
 //        String see = "left";

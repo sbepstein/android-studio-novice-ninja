@@ -3,14 +3,11 @@ package com.android.ninja;
 import android.content.Context;
 import android.content.pm.PackageManager;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * PostFix functionality
- * <p/>
- * Google field naming convention:
- * Non-public, non-static field names start with m.
- * Static field names start with s.
- * Other fields start with a lower case letter.
- * Public static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES.
  *
  * @author Aziz Kadhi
  */
@@ -19,23 +16,42 @@ public class PostFix {
         // To see the entire list go to Settings -> Editor -> General -> Postfix Completion
 
         // try
-        ctx.getApplicationContext();
+        // uncomment and type try + enter
+//        ctx.getApplicationContext().
 
         // nn and cast
+        // type ctx.nn + enter
+
 
         // not
-        process(ctx);
+        // type .not right after 0
+        if (value == 0) {
+
+        }
 
 
-        // for, fori and forr
-        int[] values = {1, 2, 3};
+        // option = iter, for, fori and forr
+        // just append .option to values
+        List<Integer> values = Arrays.asList(1, 2, 3);
+
+
+
+
 
 
 
     }
 
     private PackageManager process(Object ctx) {
-       return ctx instanceof Context ? ((Context) ctx).getPackageManager() : null;
+
+        // type ctx.instanceof + enter + Context + enter + getMP + cmd + w (until the entire statement is selected) +
+        // option + cmd + v + pm
+
+        // The final output should look like this
+        // PackageManager pm = ctx instanceof Context ? ((Context) ctx).getPackageManager() : null;
+
+
+        return null;
 
     }
 
@@ -53,7 +69,7 @@ public class PostFix {
     // format
     // forr
     // if
-    // inst
+    // inst (troublesome)
     // instanceof
     // iter
     // nn
@@ -70,4 +86,8 @@ public class PostFix {
     // twr
     // var
     // while
+
+    public void next() {
+        new LiveTemplate();
+    }
 }

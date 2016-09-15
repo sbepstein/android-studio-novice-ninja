@@ -45,4 +45,9 @@ public class PluginButterKnifeFragment extends Fragment {
 
     private int mFindMe;
 
+
+    public void next() {
+        new PostFix(new MainActivity(), 0);
+    }
+
 }

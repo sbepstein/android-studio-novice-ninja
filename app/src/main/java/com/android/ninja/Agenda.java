@@ -1,34 +1,28 @@
 package com.android.ninja;
 
 // TODO: 11/24/15 Add Windows info
+
 /**
  * This is a somewhat interactive presentation. Just navigate to each constructor and follow the directions.
- *
- * <p/>
- * Google field naming convention:
- * Non-public, non-static field names start with m.
- * Static field names start with s.
- * Other fields start with a lower case letter.
- * Public static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES.
  *
  * @author Aziz Kadhi
  */
 public class Agenda {
 
+    // Comments are hard to read, I suggest you temporarily display them in a yellow color (or your favorite color)
+    // cmd + , and just type line comment (should be under Editor -> Colors & Fonts -> Java -> Comments -> Line Comment)
+    // Change the Scheme (give it whatever name makes sense)
+    // Click on "// some comment" (first line)
+    // Navigate to Foreground and click on the color selector:
+
     public void flow() {
-        Object[] obs = {
-
-            // Jetbrains/Intellij IDEA history
-
-            // To navigate to the class, cmd + click on the constructor/class/method...
-            new FirstSteps(),
-            new KeymapAndShortcuts(),
-            new Debugger(),
-            new CodeGeneration(),
-            new PluginButterKnifeFragment(),
-            new PostFix(new MainActivity(), 0),
-            new LiveTemplate(),
-            new LanguageInjection()
-        };
+        new FirstSteps();
+        new KeymapAndShortcuts();
+        new Debugger();
+        new CodeGeneration();
+        new PluginButterKnifeFragment();
+        new PostFix(new MainActivity(), 0);
+        new LiveTemplate();
+        new LanguageInjection();
     }
 }

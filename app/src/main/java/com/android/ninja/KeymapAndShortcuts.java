@@ -4,13 +4,7 @@ package com.android.ninja;
 import android.widget.ImageView;
 
 /**
- * Description
- * <p/>
- * Google field naming convention:
- * Non-public, non-static field names start with m.
- * Static field names start with s.
- * Other fields start with a lower case letter.
- * Public static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES.
+ * Use the available shortcuts and edit the keymap to create your own
  *
  * @author Aziz Kadhi
  */
@@ -50,7 +44,8 @@ public class KeymapAndShortcuts {
 
     public void updateYourKeymap() {
         // Again...if you can't remember a shortcut use cmd + shift + a
-        // Settings -> Keymap -> right click on a entry and select: Add Keyboard Shortcut
+        // Search for keymap or
+        // cmd + , -> Keymap -> right click on a entry and select: Add Keyboard Shortcut
     }
 
     String hippieCompletion;
@@ -167,4 +162,8 @@ public class KeymapAndShortcuts {
 
 
     private int findMe;
+
+    public void next() {
+        new Debugger();
+    }
 }
