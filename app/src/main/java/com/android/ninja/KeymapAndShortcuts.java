@@ -2,6 +2,7 @@ package com.android.ninja;
 
 
 import android.widget.ImageView;
+import java.io.File;
 
 /**
  * Use the available shortcuts and edit the keymap to create your own
@@ -62,7 +63,7 @@ public class KeymapAndShortcuts {
         // Complete current statement: cmd + shift + enter
 //        if (builder == null)
 
-        // Hippie completion: option + / (slash)
+        // hippie completion: option + / (slash)
         String h;
 
 
@@ -106,7 +107,6 @@ public class KeymapAndShortcuts {
         // 3) Change method signature: cmd + fn + F6
 
     }
-
 
     public void refactorValue() {
         // cmd + option + v, f, c, or p
@@ -166,9 +166,9 @@ public class KeymapAndShortcuts {
         // Sublime style code editing.
 
         // 3 ways to do the same thing:
-        // Hard way: multi-cursor selection (if editing multiple words): option + shift + mouse
-        // Easy way: multi-edit: select the target (if editing same word), in this case Mouse, cmd + ctrl + g
         // Column selection mode: cmd + shift + 8
+        // Hard way: multi-cursor selection (if editing multiple words): option + shift + mouse
+        // Easy way: multi-edit: select the target (if editing same word), in this case word Mouse, cmd + ctrl + g
 
         int moveMouseRight;
         int moveMouseLeft;
