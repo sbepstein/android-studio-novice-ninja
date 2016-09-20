@@ -1,7 +1,6 @@
 package com.android.ninja;
 
 // TODO: 11/24/15 Add Windows info
-// TODO: 9/19/16 Upload my keymap to share (file templates) 
 
 
 /**
