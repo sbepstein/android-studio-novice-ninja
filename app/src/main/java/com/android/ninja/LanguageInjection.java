@@ -13,16 +13,14 @@ public class LanguageInjection {
 
     // Inject Regex:
     // 1) Same as above, execute step 1
-    // 2) Copy the regex into the empty string
-    // 3) Move cursor to empty string and press option + enter then select Check RegExp
-    // 4) Start type random numbers and notice how it's checked (533424343 is a valid one).
+    // 2) Move cursor to empty string and press option + enter then select Check RegExp
+    // 3) Start type random numbers and notice how it's checked (533424343 is a valid one).
 
     // ^5[1-5][0-9]{5,}$
-    String visaRegex = "";
+    String visaRegex = "^5[1-5][0-9]{5,}$";
 
     public void next() {
         new Agenda();
     }
-
 
 }
