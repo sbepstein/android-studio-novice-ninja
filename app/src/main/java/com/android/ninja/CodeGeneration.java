@@ -39,7 +39,6 @@ public class CodeGeneration {
     }
 
 
-    // Code generator: cmd + n
 
     // Code "fixer"
     // Uncomment the class below then move cursor to "Parcelable" then select Add Parcelable implementation.
@@ -77,8 +76,9 @@ public class CodeGeneration {
 //  // The hard way.
 //}
 
+    // Column selection mode: cmd + shift + 8
     // Generate getters/setters/toString/equals...
-// Alternative: use Lombok plugin
+    // Alternative: use Lombok plugin
     class Model {
 
         String look = "right";
