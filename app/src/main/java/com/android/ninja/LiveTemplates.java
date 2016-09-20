@@ -2,37 +2,32 @@ package com.android.ninja;
 
 import android.content.Context;
 import android.content.Intent;
-import android.media.Image;
-import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
- * Description
+ * Live templates have been around for a long time. They can really save you from typing a lot of keystrokes
  *
  * @author Aziz Kadhi
  */
-public class LiveTemplate {
-    private static final String TAG = LiveTemplate.class.getSimpleName();
+
+public class LiveTemplates {
+    private static final String TAG = LiveTemplates.class.getSimpleName();
     private Context ctx = new MainActivity();
 
 
+    
     // Create constants: psf + enter
-
 
     // Constant string: psfs + enter
 
-
     // Create method: mp + enter
-
+    
+    
     public void moreTemplates() {
         // gone/visible file templates
         ImageView modelTimageView = new ImageView(ctx);
@@ -42,11 +37,10 @@ public class LiveTemplate {
         List<Integer> values = Arrays.asList(1, 3, 3);
         // Type it
 
-
     }
 
     // To generate a method that starts an activity: type starter
-
+        
 
     public void next() {
         new LanguageInjection();

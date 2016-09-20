@@ -14,7 +14,18 @@
         tools:context="com.android.ninja.MainActivity">
 
     <TextView
+            android:id="@+id/text_view"
             android:text="Hello World!"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/click_me_button"
+            android:text="Click Me"
+            android:layout_below="@id/text_view"
+            android:onClick="buttonClicked"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
 </RelativeLayout>

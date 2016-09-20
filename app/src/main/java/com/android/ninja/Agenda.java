@@ -1,6 +1,8 @@
 package com.android.ninja;
 
 // TODO: 11/24/15 Add Windows info
+// TODO: 9/19/16 Upload my keymap to share (file templates) 
+
 
 /**
  * This is a somewhat interactive presentation. Just navigate to each constructor and follow the directions.
@@ -15,14 +17,17 @@ public class Agenda {
     // Click on "// some comment" (first line)
     // Navigate to Foreground and click on the color selector:
 
-    public void flow() {
+
+    // ** Denotes sections that I have to discuss
+
+    public void flow8() {
         new FirstSteps();
         new KeymapAndShortcuts();
         new Debugger();
         new CodeGeneration();
         new PluginButterKnifeFragment();
         new PostFix(new MainActivity(), 0);
-        new LiveTemplate();
+        new LiveTemplates();
         new LanguageInjection();
     }
 }

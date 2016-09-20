@@ -16,8 +16,8 @@ public class PostFix {
         // To see the entire list go to Settings -> Editor -> General -> Postfix Completion
 
         // try
-        // uncomment and type try + enter
-//        ctx.getApplicationContext().
+        // Type .try + enter
+        ctx.getApplicationContext();
 
         // nn and cast
         // type ctx.nn + enter
@@ -29,29 +29,10 @@ public class PostFix {
 
         }
 
-
         // option = iter, for, fori and forr
         // just append .option to values
         List<Integer> values = Arrays.asList(1, 2, 3);
 
-
-
-
-
-
-
-    }
-
-    private PackageManager process(Object ctx) {
-
-        // type ctx.instanceof + enter + Context + enter + getMP + cmd + w (until the entire statement is selected) +
-        // option + cmd + v + pm
-
-        // The final output should look like this
-        // PackageManager pm = ctx instanceof Context ? ((Context) ctx).getPackageManager() : null;
-
-
-        return null;
 
     }
 
@@ -88,6 +69,6 @@ public class PostFix {
     // while
 
     public void next() {
-        new LiveTemplate();
+        new LiveTemplates();
     }
 }

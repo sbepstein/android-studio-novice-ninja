@@ -8,10 +8,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * A simple {@link Fragment} subclass.
- * Use the {@link PluginButterKnifeFragment#newInstance} factory method to
- * create an instance of this fragment.
+ * Shows how to use a (very useful) plugin.
+ *
+ * @author Aziz Kadhi
  */
+
 public class PluginButterKnifeFragment extends Fragment {
 
 

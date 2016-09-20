@@ -6,6 +6,8 @@ import android.widget.ImageView;
 /**
  * Use the available shortcuts and edit the keymap to create your own
  *
+ * 15 minutes
+ *
  * @author Aziz Kadhi
  */
 public class KeymapAndShortcuts {
@@ -23,18 +25,15 @@ public class KeymapAndShortcuts {
 
     // IntelliJ was designed to be used 100% without a mouse (and no need for tabs!)
 
-    // The MOST important shortcut: find the shortcut associated with an action
-    // cmd + shift + a
-
-    // Reformat code: cmd + option + l
-    // Optimize imports: ctrl + option + o
+                      // Reformat code: cmd + option + l
+    // Optimize imports: ctrl + option + o (hard to remember)
 
 
     public KeymapAndShortcuts() {
         updateYourKeymap();
         codeKatas();
         navigation();
-        moveMe();
+        moveMeF6();
         textEditing();
         textNavigation();
         advancedTextEditing();
@@ -49,6 +48,7 @@ public class KeymapAndShortcuts {
     }
 
     String hippieCompletion;
+
     public void codeKatas() {
         // Quick doc: fn + F1
         // Parameter info: cmd + p
@@ -56,11 +56,13 @@ public class KeymapAndShortcuts {
 
         // Smart type completion: ctrl + space
         StringBuilder builder = new StringBuilder();
+//        new ImageView((new MainActivity())).setOnClickListener();
+
 
         // Complete current statement: cmd + shift + enter
 //        if (builder == null)
 
-        // hippie completion: option + /
+        // Hippie completion: option + / (slash)
         String h;
 
 
@@ -68,15 +70,20 @@ public class KeymapAndShortcuts {
 
     public void navigation() {
 
-        // Move back/forward: cmd + [/]
-        // Show/hide Project/Structure/x: cmd + 1/cmd + 7/cmd + x
-        // Split editor vertically
+        // Move backward: cmd + [ (right bracket)
+        // Move forward: cmd + ]
+        // Go to last edit: cmd + shift + delete (or cmd + shift + backspace if you are using a keyboard)
+        // Recent edited files: cmd + shift + e
+        // Recent files: cmd + e
 
+
+        // Show/hide Project/Structure/x: cmd + 1  (you can do the same thing with other views, just use cmd + number)
         // Alternative to using "Structure" navigation pane: fn + cmd + F12
+        // Split editor vertically: control + option + cmd
+        // Quickly close a tab: shift + click
+
         // Open file/folder in Finder: fn + option + cmd + F12
 
-        // Recent files: cmd + e
-        // Recent edited files: cmd + shift + e
 
         // Bookmarks
         // Create bookmark: ctrl + shift + x where x = [0-9]
@@ -87,14 +94,17 @@ public class KeymapAndShortcuts {
         // A favorite of mine...Go to next highlighted error
         // fn + F2
 
+
         refactorValue();
+        moveMeF6();
     }
 
-    public static void moveMe() {
+    public static void moveMeF6() {
         // The F6 family of crucial refactorings:
-        // 1) Rename: cmd + shift + F6
+        // 1) Move: fn + F6
+        // 2) Rename: cmd + shift + F6
         // 3) Change method signature: cmd + fn + F6
-        // 2) Move: fn + F6
+
     }
 
 
@@ -104,13 +114,18 @@ public class KeymapAndShortcuts {
         // 2) field: f
         // 3) constant: c
         // 4) parameter: p
-        // Use the value below to create a var, field, constant and parameter;
-        int v = 100;
+        // Use the value below to create a var, a field, a constant or a parameter. Type 1 and select it
+
+        // 10
+
     }
+
+
 
     public void textEditing() {
         // Clipboard history: cmd + shift + v
-        // Paste simple (very convenient when you copying text from an external source): cmd + option + shift + v
+        // Paste simple (very convenient when you are copying text from an external source and need to keep the
+        // formatting intact): cmd + option + shift + v
 
         // Expand (shrink) selection: cmd + w  (cmd + shift + w)
         String aziz = "scooter fanboy";
@@ -118,19 +133,19 @@ public class KeymapAndShortcuts {
         for (int hp : horsepower) {
             System.out.println(hp);
         }
-        // cmd + d (duplicate)
-        String replicateMe = null;
+        // Duplicate me: cmd + d
+        String cloneMe = null;
 
-        // cmd + backspace or fn + shift + delete
+        // Delete me: fn + shift + delete (keyboard: cmd + backspace)
         String deleteMe;
 
-        // cmd + shift + arrow up/down
+        // Move me up/down: cmd + shift + arrow up/down
         String moveMeUpOrDown;
 
-        // cmd + shift + u
+        // Play with my case: cmd + shift + u
         String toggleCase;
 
-        // ctrl + shift + j  (join)
+        // Join me: ctrl + shift + j  (join)
         String joinMe = "You say I am crazy " +
                 "Cause you don't think I know what you have done";
     }
@@ -142,7 +157,7 @@ public class KeymapAndShortcuts {
         // Move caret between camel hump words: option + arrow
         String moveCaretBetweenCamelHumps = "theSpeedOfLightCannotBeAchievedByASolidObject";
 
-        // Select camel hump chunks: option + shift + arrow (vs cmd + shift + arrow)
+        // * Select camel hump chunks: option + shift + arrow (vs cmd + shift + arrow)
         String selectCamelHumps = "theSpeedOfLightCannotBeAchievedByASolidObject";
     }
 
@@ -150,20 +165,23 @@ public class KeymapAndShortcuts {
     public void advancedTextEditing() {
         // Sublime style code editing.
 
-        // Multi-cursor selection: option + shift + mouse
-        // Multi-edit: select the target (word), cmd + CTRL + g
+        // 3 ways to do the same thing:
+        // Hard way: multi-cursor selection (if editing multiple words): option + shift + mouse
+        // Easy way: multi-edit: select the target (if editing same word), in this case Mouse, cmd + ctrl + g
+        // Column selection mode: cmd + shift + 8
+
         int moveMouseRight;
         int moveMouseLeft;
         int moveMouseUp;
         int moveMouseDown;
 
-        // Column selection mode: cmd + shift + 8
     }
-
 
     private int findMe;
 
     public void next() {
         new Debugger();
     }
+
+
 }
