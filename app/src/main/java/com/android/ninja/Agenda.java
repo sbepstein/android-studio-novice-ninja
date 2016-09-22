@@ -17,16 +17,15 @@ public class Agenda {
     // Navigate to Foreground and click on the color selector:
 
 
-    // ** Denotes sections that I have to discuss
-
     public void flow8() {
         new FirstSteps();
-        new KeymapAndShortcuts();
         new Debugger();
         new CodeGeneration();
         new PluginButterKnifeFragment();
         new PostFix(new MainActivity(), 0);
         new LiveTemplates();
         new LanguageInjection();
+        new KeymapAndShortcuts();
+
     }
 }

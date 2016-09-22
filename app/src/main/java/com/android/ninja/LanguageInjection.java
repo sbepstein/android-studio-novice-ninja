@@ -20,7 +20,7 @@ public class LanguageInjection {
     String visaRegex = "^5[1-5][0-9]{5,}$";
 
     public void next() {
-        new Agenda();
+        new KeymapAndShortcuts();
     }
 
 }

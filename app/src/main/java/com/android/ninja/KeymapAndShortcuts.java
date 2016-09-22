@@ -66,7 +66,6 @@ public class KeymapAndShortcuts {
         // hippie completion: option + / (slash)
         String h;
 
-
     }
 
     public void navigation() {
