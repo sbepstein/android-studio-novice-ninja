@@ -4,13 +4,7 @@ import android.content.Context;
 import android.os.Parcelable;
 
 /**
- * Description
- * <p/>
- * Google field naming convention:
- * Non-public, non-static field names start with m.
- * Static field names start with s.
- * Other fields start with a lower case letter.
- * Public static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES.
+ * You barely have to type.
  *
  * @author Aziz Kadhi
  */
@@ -19,8 +13,6 @@ public class CodeGeneration {
     private Context ctx = new MainActivity();
 
     public void surroundWith() {
-        // select statement below: cmd + option + t
-        System.out.println("Hello");
 
         // Context sensitive, uncomment
         // 1) Select the statement: cmd + option + t

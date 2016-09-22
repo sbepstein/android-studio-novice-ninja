@@ -56,6 +56,15 @@ public class MainActivity extends AppCompatActivity {
 
     private int mFindMe;
 
+    // Show evaluate, drag and drop
+    // Evaluate: fn + option + F8
+    // Step over: fn + F8
+    // Run to the next breakpoint: fn + F9
+
+    // VERY IMPORTANT: show how to Mute Breakpoint
+
+    // Very cool, nice trick to help find the type of an object: select view and press cmd + option + t
+
     public void buttonClicked(View view) {
         Log.i(LOG_TAG, "buttonClicked");
     }
