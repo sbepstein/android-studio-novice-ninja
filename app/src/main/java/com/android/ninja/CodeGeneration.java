@@ -21,7 +21,7 @@ public class CodeGeneration {
 
         ctx.getPackageManager();
 
-        // Cool feature: unwrap/delete/undo: cmd + shift + delete (shortcut doesn't allow work, just use cmd + shit + a)
+        // Cool feature: unwrap/delete/undo: cmd + shift + delete (shortcut doesn't always work, just use cmd + shit + a)
         try {
             System.out.println("World");
         } catch (Exception e) {

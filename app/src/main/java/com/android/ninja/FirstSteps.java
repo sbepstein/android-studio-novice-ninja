@@ -42,6 +42,7 @@ public class FirstSteps {
     public void configureCodeGeneration() {
         // To open "Settings" use cmd + , (comma)
 
+
         // Navigate to Settings->Editor->Code Style->Java->Code Generation
         // http://jakewharton.com/just-say-no-to-hungarian-notation/
         // Configure the Field and Static Field entries.
