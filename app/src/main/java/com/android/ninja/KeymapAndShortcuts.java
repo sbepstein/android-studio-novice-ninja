@@ -119,7 +119,6 @@ public class KeymapAndShortcuts {
     }
 
 
-
     public void textEditing() {
         // Clipboard history: cmd + shift + v
         // Paste simple (very convenient when you are copying text from an external source and need to keep the

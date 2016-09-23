@@ -39,7 +39,7 @@ public class LiveTemplates {
 
     // To generate a method that starts an activity: type starter
    
-
+    
     public void next() {
         new LanguageInjection();
     }
