@@ -69,7 +69,6 @@ public class CodeGeneration {
 //  // The hard way.
 //}
 
-    // Column selection mode: cmd + shift + 8
     // Generate getters/setters/toString/equals...
     // Alternative: use Lombok plugin
     class Model {
