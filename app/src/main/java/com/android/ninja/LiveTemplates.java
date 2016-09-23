@@ -20,13 +20,12 @@ public class LiveTemplates {
     private Context ctx = new MainActivity();
 
 
-
     // Create constants: psf + enter
 
     // Constant string: psfs + enter
 
     // Create method: mp + enter
-
+    
 
     public void moreTemplates() {
         // gone/visible file templates
@@ -39,7 +38,7 @@ public class LiveTemplates {
     }
 
     // To generate a method that starts an activity: type starter
-
+   
 
     public void next() {
         new LanguageInjection();

@@ -22,17 +22,15 @@ public class PostFix {
         // nn and cast
         // type ctx.nn + enter
 
-
         // not
         // type .not right after 0
-        if (value == 0) {
+        if (value != 0) {
 
         }
 
         // option = iter, for, fori and forr
         // just append .option to values
         List<Integer> values = Arrays.asList(1, 2, 3);
-
 
     }
 

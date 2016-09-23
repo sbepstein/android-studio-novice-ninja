@@ -35,7 +35,8 @@ public class CodeGeneration {
     // Code "fixer"
     // Uncomment the class below then move cursor to "Parcelable" then select Add Parcelable implementation.
 //    static class CrucialInfoParcelable implements Parcelable {
-//
+//        private String name;
+//        private int age;
 //    }
 
     interface ImplementMe {

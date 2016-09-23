@@ -9,7 +9,10 @@ public class LanguageInjection {
     // Inject language:
     // 1) Put cursor inside the empty string, press option + enter then select Inject language or reference
     // 2) To invoke the fragment editor: option + enter then select Edit JSON Fragment
-    String jsonStr = "";
+    String jsonStr = "{\n" +
+            "  \"name\": \"aziz\",\n" +
+            "  \"singer\": \"bob marley and the wailers\"\n" +
+            "}";
 
     // Inject Regex:
     // 1) Same as above, execute step 1

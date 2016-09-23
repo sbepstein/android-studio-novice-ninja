@@ -39,7 +39,6 @@ public class KeymapAndShortcuts {
         textNavigation();
         advancedTextEditing();
 
-
     }
 
     public void updateYourKeymap() {
