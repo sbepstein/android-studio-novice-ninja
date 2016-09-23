@@ -19,21 +19,21 @@ public class LiveTemplates {
     private static final String TAG = LiveTemplates.class.getSimpleName();
     private Context ctx = new MainActivity();
 
-
     // Create constants: psf + enter
 
     // Constant string: psfs + enter
 
     // Create method: mp + enter
-    
+
 
     public void moreTemplates() {
         // gone/visible file templates
         ImageView modelTimageView = new ImageView(ctx);
         // Type gone + enter + mTi + tab + enter
-        
+
         List<Integer> values = Arrays.asList(1, 3, 3);
-        // Type it
+        // Type it, itli, iter
+
 
     }
 
