@@ -5,9 +5,8 @@ import android.widget.ImageView;
 import java.io.File;
 
 /**
- * Use the available shortcuts and edit the keymap to create your own
+ * Use the available shortcuts, you can also edit the keymap to create your own.
  *
- * 15 minutes
  *
  * @author Aziz Kadhi
  */
